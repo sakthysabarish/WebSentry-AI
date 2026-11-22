@@ -30,7 +30,7 @@ export default function StatsCards({ totalProjects, backendOnline }) {
           </div>
         </div>
         <div className="stat-value-row">
-          <span className="stat-text-status">ai_web_analyzer</span>
+          <span className="stat-text-status">websentry_ai</span>
           <span className="stat-trend neutral">MySQL 8.0</span>
         </div>
         <p className="stat-footer-text">Table: `projects` (Active & Synced)</p>

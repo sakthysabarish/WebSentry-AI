@@ -18,7 +18,7 @@ app.use("/screenshots", express.static(path.join(__dirname, "public/screenshots"
 // Home API
 app.get("/", (req, res) => {
     res.json({
-        message: "AI Web Application Analyzer API is running!"
+        message: "WebSentry AI API is running!"
     });
 });
 
@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 app.get("/api/health", (req, res) => {
     res.json({
         status: "Online",
-        application: "AI Web Analyzer"
+        application: "WebSentry AI"
     });
 });
 

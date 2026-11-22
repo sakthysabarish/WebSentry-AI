@@ -23,7 +23,7 @@ export default function Header({
 
         <div className="header-title-group">
           <div className="app-title-row">
-            <h1 className="header-app-name">AI Web Application Analyzer</h1>
+            <h1 className="header-app-name">WebSentry AI</h1>
             <span className="ai-badge">
               <Sparkles size={12} />
               <span>AI Engine</span>
